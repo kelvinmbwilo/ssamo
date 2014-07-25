@@ -75,24 +75,47 @@
 </div>
 <div id="menuSocial">
     <a class="" href="grid-gallery.html#">
-        <img src="{{ asset('instagram.png') }}" />
+        <img src="{{ asset('ssamo_instagram.png') }}" style="height: 25px;width: 25px"/>
     </a>
     <a class="" href="grid-gallery.html#">
-        <img src="{{ asset('facebook.png') }}" />
+        <img src="{{ asset('ssamo_facebook.png') }}" style="height: 25px;width: 25px"/>
     </a>
     <a class="" href="grid-gallery.html#">
-        <img src="{{ asset('twitter.png') }}" />
+        <img src="{{ asset('ssamo_twitter.png') }}" style="height: 25px;width: 25px"/>
     </a>
     <a class="" href="grid-gallery.html#">
-        <img src="{{ asset('inkscape.png') }}" />
+        <img src="{{ asset('ssamo_linkedin.png') }}" style="height: 25px;width: 25px"/>
     </a>
     <a class="e" href="grid-gallery.html#">
-        <img src="{{ asset('googleplus.png') }}" />
+        <img src="{{ asset('ssamo_google.png') }}" style="height: 25px;width: 25px"/>
+    </a>
+    <a class="e" href="grid-gallery.html#">
+        <img src="{{ asset('ssamo_tumblr.png') }}" style="height: 25px;width: 25px"/>
     </a>
 </div>
     <div class="testmonials" style="color: #FDF5C2">
-        Just wanted to say I am so pleased I moved over to SSAMO media …… The level of service just “knocks the socks off” our previous graphics firm.
-        <b>Kelvin – Dar es salaam Tanzania</b>
+        <h3>Testimonials</h3>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <b>"</b>Just wanted to say I am so pleased I moved over to SSAMO media …… The level of service just “knocks the socks off” our previous graphics firm.<b>"</b>
+                    <br><b>Kelvin – Dar es salaam Tanzania</b>
+                </div>
+                <div class="item">
+                    <b>"</b>I would like to take this opportunity to say that the quality of service offered by SSAMO. Every  service has been beyond reproach.<b>"</b>
+                   <br><b>Egfrid - XpertDigital, Tanzania</b>
+                </div>
+            </div>
+<!--            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">-->
+<!--                <span class="glyphicon glyphicon-chevron-left" style="top: 90%;"></span>-->
+<!--            </a>-->
+<!--            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">-->
+<!--                <span class="glyphicon glyphicon-chevron-right" style="top: 90%;"></span>-->
+<!--            </a>-->
+        </div>
+
     </div>
 </div>
 </header>

@@ -120,20 +120,23 @@
             <a href="portfolio-fullpage-grid.html#" class="footerBtn playGallery" data-toggle="tooltipfooter" title="Play Gallery"></a>
         </div>
         <div class="footerAudioControls">
-            <a href="#" class="" data-toggle="tooltipfooter" title="Prev Song">
-                <img src="{{ asset('instagram.png') }}" />
+            <a href="#" class="" data-toggle="tooltipfooter">
+                <img src="{{ asset('ssamo_instagram.png') }}" style="height: 40px;width: 40px"/>
             </a>
-            <a href="#" class="" data-toggle="tooltipfooter" title="Stop Song">
-                <img src="{{ asset('facebook.png') }}" />
+            <a href="#" class="" data-toggle="tooltipfooter">
+                <img src="{{ asset('ssamo_facebook.png') }}" style="height: 40px;width: 40px"/>
             </a>
-            <a href="#" class=" " data-toggle="tooltipfooter" title="Pause Song">
-                <img src="{{ asset('twitter.png') }}" />
+            <a href="#" class=" " data-toggle="tooltipfooter">
+                <img src="{{ asset('ssamo_twitter.png') }}" style="height: 40px;width: 40px"/>
             </a>
-            <a href="#" class="" data-toggle="tooltipfooter" title="Play Song">
-                <img src="{{ asset('inkscape.png') }}" />
+            <a href="#" class="" data-toggle="tooltipfooter">
+                <img src="{{ asset('ssamo_linkedin.png') }}" style="height: 40px;width: 40px"/>
             </a>
-            <a href="#" class="" data-toggle="tooltipfooter" title="Next Song">
-                <img src="{{ asset('googleplus.png') }}" />
+            <a href="#" class="" data-toggle="tooltipfooter">
+                <img src="{{ asset('ssamo_google.png') }}" style="height: 40px;width: 40px"/>
+            </a>
+            <a href="#" class="" data-toggle="tooltipfooter">
+                <img src="{{ asset('ssamo_tumblr.png') }}" style="height: 40px;width: 40px"/>
             </a>
         </div>
     </div>

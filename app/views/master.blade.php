@@ -109,7 +109,7 @@
 
 <div id="bodyLoading">
     <div id="coverimage">
-        <img src="{{  asset('logo1.png') }}" alt="SSAMO Media">
+        <img src="{{  asset('_transparent.png') }}" alt="SSAMO Media" style="height: 400px; width: 400px">
     </div>
 </div>
 <div id="REF_ColorFirst"></div>
