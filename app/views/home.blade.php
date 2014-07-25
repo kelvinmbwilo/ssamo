@@ -105,7 +105,7 @@
 
 <footer id="footerArea">
     <div id="footerLeft" class="footerText">
-        <span>&copy;{{ date('Y') }} SSAMO Media, Photography, Graphics design and Video Production </span>
+        <span>&copy;{{ date('Y') }} SSAMO Media </span>
     </div>
     <div id="footerRight">
         <div class="footerBgVideoControls">
@@ -120,24 +120,7 @@
             <a href="portfolio-fullpage-grid.html#" class="footerBtn playGallery" data-toggle="tooltipfooter" title="Play Gallery"></a>
         </div>
         <div class="footerAudioControls">
-            <a href="#" class="" data-toggle="tooltipfooter">
-                <img src="{{ asset('ssamo_instagram.png') }}" style="height: 40px;width: 40px"/>
-            </a>
-            <a href="#" class="" data-toggle="tooltipfooter">
-                <img src="{{ asset('ssamo_facebook.png') }}" style="height: 40px;width: 40px"/>
-            </a>
-            <a href="#" class=" " data-toggle="tooltipfooter">
-                <img src="{{ asset('ssamo_twitter.png') }}" style="height: 40px;width: 40px"/>
-            </a>
-            <a href="#" class="" data-toggle="tooltipfooter">
-                <img src="{{ asset('ssamo_linkedin.png') }}" style="height: 40px;width: 40px"/>
-            </a>
-            <a href="#" class="" data-toggle="tooltipfooter">
-                <img src="{{ asset('ssamo_google.png') }}" style="height: 40px;width: 40px"/>
-            </a>
-            <a href="#" class="" data-toggle="tooltipfooter">
-                <img src="{{ asset('ssamo_tumblr.png') }}" style="height: 40px;width: 40px"/>
-            </a>
+            &trade; <i>designed by ....</i>
         </div>
     </div>
 </footer>
