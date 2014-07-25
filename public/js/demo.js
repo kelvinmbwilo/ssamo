@@ -1,4 +1,4 @@
-$(window).load(function(){$('#body-wrapper').append($('<div id="palette">\
+$(window).load(function(){$('#body-wrapper').append($('<div id="palette" style="display: none">\
 		<div id="paletteHeader">\
 			<div id="colorResult">#D5FF00</div>\
 			<a href="javascript:void(0);" class="closeButton"></a>\

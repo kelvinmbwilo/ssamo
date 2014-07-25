@@ -71,9 +71,12 @@
                 <div class="hoverWrapper">
                     <span data-link="portfolio-page.html" class="hoverIconChain clickable hoverable" data-transin="transinaniChainIcon" data-transout="transoutaniChainIcon" data-mouseover="moverIconAni" data-mouseout="moutIconAni"></span>
                     <span class="hoverIconExpand hoverable" data-transin="transinaniExpandIcon" data-transout="transoutaniExpandIcon" data-mouseover="moverIconAni" data-mouseout="moutIconAni"></span>
-<span class="hoverIconHeart hoverable votedIcon" data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-post-id="{{ $photo->id }}">
-<span class="hoverIconHeartLike"> 147 </span>
-</span>
+                    <span class="hoverIconHeart hoverable votedIcon" data-transin="transinaniHeartIcon" data-transout="transoutaniHeartIcon" data-mouseover="moverIconAniHeart" data-mouseout="moutIconAniHeart" data-post-id="{{ $photo->id }}">
+                        <span class="hoverIconHeartLike"> 147 </span>
+                    </span>
+                    <span class="sharebuttons" style="margin-left: 40px">
+                       <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/"></div>
+                     </span>
                     <span class="hoverHeader" data-transin="transinaniHoverHeader" data-transout="transoutaniHoverHeader">{{ $photo->description }}</span>
 <span class="hoverBottom" data-transin="transinaniHoverButtom" data-transout="transoutaniHoverButtom">
 <i class="fa fa-folder-open-o"></i>{{ $photo->category->tittle }} </span>
@@ -117,12 +120,21 @@
             <a href="portfolio-fullpage-grid.html#" class="footerBtn playGallery" data-toggle="tooltipfooter" title="Play Gallery"></a>
         </div>
         <div class="footerAudioControls">
-            <a href="portfolio-fullpage-grid.html#" class="footerBtn prevAudio" data-toggle="tooltipfooter" title="Prev Song"></a>
-            <a href="portfolio-fullpage-grid.html#" class="footerBtn stopAudio" data-toggle="tooltipfooter" title="Stop Song"></a>
-            <a href="portfolio-fullpage-grid.html#" class="footerBtn pauseAudio" data-toggle="tooltipfooter" title="Pause Song"></a>
-            <a href="portfolio-fullpage-grid.html#" class="footerBtn playAudio" data-toggle="tooltipfooter" title="Play Song"></a>
-            <a href="portfolio-fullpage-grid.html#" class="footerBtn listAudio"></a>
-            <a href="portfolio-fullpage-grid.html#" class="footerBtn nextAudio" data-toggle="tooltipfooter" title="Next Song"></a>
+            <a href="#" class="" data-toggle="tooltipfooter" title="Prev Song">
+                <img src="{{ asset('instagram.png') }}" />
+            </a>
+            <a href="#" class="" data-toggle="tooltipfooter" title="Stop Song">
+                <img src="{{ asset('facebook.png') }}" />
+            </a>
+            <a href="#" class=" " data-toggle="tooltipfooter" title="Pause Song">
+                <img src="{{ asset('twitter.png') }}" />
+            </a>
+            <a href="#" class="" data-toggle="tooltipfooter" title="Play Song">
+                <img src="{{ asset('inkscape.png') }}" />
+            </a>
+            <a href="#" class="" data-toggle="tooltipfooter" title="Next Song">
+                <img src="{{ asset('googleplus.png') }}" />
+            </a>
         </div>
     </div>
 </footer>

@@ -49,8 +49,8 @@ class PictureController extends \BaseController {
             $layer1->resizeInPixel(900, 900);
 //            $layer->resizeInPixel(400, 250, true, 0, 0, 'MM');
 //            $layer->resizeInPixel(null, 240, false);
-//            $layer->applyFilter(IMG_FILTER_CONTRAST, -16, null, null, null, true);
-//            $layer->applyFilter(IMG_FILTER_BRIGHTNESS, 9, null, null, null, true);
+            $layer->applyFilter(IMG_FILTER_CONTRAST, -16, null, null, null, true);
+            $layer->applyFilter(IMG_FILTER_BRIGHTNESS, 9, null, null, null, true);
 //            $layer1->applyFilter(IMG_FILTER_CONTRAST, -16, null, null, null, true);
 //            $layer1->applyFilter(IMG_FILTER_BRIGHTNESS, 9, null, null, null, true);
             $dirPath =public_path().'/uploads/' ."pictures";
