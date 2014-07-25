@@ -37,7 +37,7 @@
         var historyApiEnable = true; // if true htlm5 history api will use
         var bgTime = 6000; // Background Image/Video animation display duration (ms)
         var bgPaused = false; // Background Image/Video animation paused
-        var autoPlay = true; // Background audio autoplay
+        var autoPlay = false; // Background audio autoplay
         var loop = false; // Background audio loop or next song
         var videoSkipMobile = false; // if true background videos skips on mobile
         var NormalFade = false; // Normal fade or animated bg image

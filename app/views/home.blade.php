@@ -105,7 +105,7 @@
 
 <footer id="footerArea">
     <div id="footerLeft" class="footerText">
-        <span>&copy;{{ date('Y') }} SSAMO Media </span>
+        <span style="color: #C39638">&copy;{{ date('Y') }} SSAMO Media </span>
     </div>
     <div id="footerRight">
         <div class="footerBgVideoControls">
