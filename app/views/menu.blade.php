@@ -21,7 +21,7 @@
     <li id="menu-item-2">
     <a href="index.html">
 <span class="title">
-<span class="original">HOME</span>
+<span class="original">ABOUT</span>
 </span>
     </a>
 </li>
