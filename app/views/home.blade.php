@@ -65,7 +65,7 @@
     @foreach($photos as $photo)
     <div class="portfolio-item cat{{ $photo->category_id }} ">
         <div class="portfolio-item-container">
-            <a href='{{ asset("uploads/pictures/{$photo->image}") }}' class="modalimage">
+            <a href='{{ asset("uploads/pictures/g{$photo->image}") }}' class="modalimage">
                 <img src='{{ asset("uploads/pictures/{$photo->image}") }}' alt="{{ $photo->description }}">
                 <div class="hoverWrapperBg"></div>
                 <div class="hoverWrapper">
