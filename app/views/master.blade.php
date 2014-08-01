@@ -30,7 +30,7 @@
     <script type='text/javascript' src='{{ asset("main.js") }}'></script>
     <script type='text/javascript' src='{{ asset("js/less-1.1.6.js") }}'></script>
     <script type='text/javascript'>
-        var historyApiEnable = true; // if true htlm5 history api will use
+        var historyApiEnable = false; // if true htlm5 history api will use
         var bgTime = 6000; // Background Image/Video animation display duration (ms)
         var bgPaused = false; // Background Image/Video animation paused
         var autoPlay = false; // Background audio autoplay
