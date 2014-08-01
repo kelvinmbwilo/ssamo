@@ -13,11 +13,7 @@
     <title>SSAMO</title>
     <meta name="description" content="FlowAway Background Video/Image/Audio Supported Premium HTML5 Theme"/>
     <meta name='robots' content='index,follow'/>
-    <script type="text/javascript">
-        //<![CDATA[
-        try{if (!window.CloudFlare) {var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/dokv=88e434a982/"},atok:"ee40215d397c978090d2a8894e31e2e3",petok:"3a19646ec3766ce95870863d80c03f3b26c41854-1406110268-1800",zone:"renklibeyaz.com",rocket:"0",apps:{}}];CloudFlare.push({"apps":{"ape":"e0248e7e58877068e21e81853f0c6182"}});!function(a,b){a=document.createElement("script"),b=document.getElementsByTagName("script")[0],a.async=!0,a.src="//ajax.cloudflare.com/cdn-cgi/nexp/dokv=97fb4d042e/cloudflare.min.js",b.parentNode.insertBefore(a,b)}()}}catch(e){};
-        //]]>
-    </script>
+
     <link rel='stylesheet' id='contentFont-css' href='http://fonts.googleapis.com/css?family=PT+Sans:&#038;subset=latin,cyrillic,latin-ext,cyrillic-ext' type='text/css' media='all'/>
     <link rel='stylesheet' id='headerFont-css' href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:&#038;subset=latin,cyrillic,latin-ext,cyrillic-ext' type='text/css' media='all'/>
     <link rel='stylesheet' id='bootstrap-css-css' href='{{ asset("css/bootstrap.css") }}' type='text/css' media='all'/>
@@ -128,35 +124,14 @@
 <script type='text/javascript' src='{{ asset("js/jquery.hammer.min.js") }}'></script>
 <script type='text/javascript' src='{{ asset("js/jquery.isotope.min.js") }}'></script>
 <script type='text/javascript' src='{{ asset("js/jquery.isotope.perfectmasonry.js") }}'></script>
-<script type='text/javascript' src='{{ asset("js/jquery.hoverdir.js") }}'></script>
+<!--<script type='text/javascript' src='{{ asset("js/jquery.hoverdir.js") }}'></script>-->
 <script type='text/javascript' src='{{ asset("js/jquery.knob.js") }}'></script>
 <script type='text/javascript' src='{{ asset("js/video.js") }}'></script>
 <script type='text/javascript' src='{{ asset("js/jquery.cookie.js") }}'></script>
-<script type='text/javascript' src='{{ asset("js/demo.js") }}'></script>
-<script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-7274521-2']);
-    _gaq.push(['_trackPageview']);
+<!--<script type='text/javascript' src='{{ asset("js/demo.js") }}'></script>-->
 
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-</script>
-<script type="text/javascript">
-    /* <![CDATA[ */
-    var google_conversion_id = 973232914;
-    var google_custom_params = window.google_tag_params;
-    var google_remarketing_only = true;
-    /* ]]> */
-</script>
 <script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js"></script>
-<noscript>
-    <div style="display:inline;">
-        <img height="1" width="1" style="border-style:none;" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/973232914/?value=0&amp;guid=ON&amp;script=0"/>
-    </div>
-</noscript>
+
 </body>
 
 </html>

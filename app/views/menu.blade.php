@@ -11,7 +11,7 @@
 <div class="menu-header">
 <ul id="menu-main-menu" class="menu">
 <li id="menu-item-1">
-    <a href="index.html">
+    <a href="{{ url('/') }}">
 <span class="title">
 <span class="original">HOME</span>
 </span>
@@ -19,7 +19,7 @@
 </li>
 
     <li id="menu-item-2">
-    <a href="index.html">
+    <a href="{{ url('about') }}">
 <span class="title">
 <span class="original">ABOUT</span>
 </span>
@@ -67,6 +67,7 @@
 </ul>
 </div>
 </nav>
+
 <div id="TwitterFeed">
     <h3>Twitter Feed</h3>
     <ul>
@@ -93,19 +94,20 @@
         <img src="{{ asset('ssamo_tumblr.png') }}" style="height: 25px;width: 25px"/>
     </a>
 </div>
-    <div class="testmonials" style="color: #FDF5C2">
-        <h3>Testimonials</h3>
+    <div class="testmonials" style="color: #FDF5C2;padding-left: 20px;padding-right: 20px">
+        <h5><small>Testimonials</small></h5>
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <b>"</b>Just wanted to say I am so pleased I moved over to SSAMO media …… The level of service just “knocks the socks off” our previous graphics firm.<b>"</b>
-                    <br><b>Kelvin – Dar es salaam Tanzania</b>
+                    <small>
+                    <b>"</b>I am so pleased I moved over to SSAMO media. The level of service just “knocks the socks off” our previous graphics firm.<b>"</b>
+                    <br><b>Kelvin – Dar es salaam Tanzania</b></small>
                 </div>
                 <div class="item">
-                    <b>"</b>I would like to take this opportunity to say that the quality of service offered by SSAMO. Every  service has been beyond reproach.<b>"</b>
-                   <br><b>Egfrid - XpertDigital, Tanzania</b>
+                    <small><b>"</b>I would like to take this opportunity to say that the quality of service offered by SSAMO. Every  service has been beyond reproach.<b>"</b>
+                   <br><b>Egfrid - XpertDigital, Tanzania</b></small>
                 </div>
             </div>
 <!--            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">-->
@@ -119,4 +121,11 @@
     </div>
 </div>
 </header>
-<a id="openMenu" class="nolink" href="grid-gallery.html#"></a>
+<a id="openMenu" class="nolink" href="#"></a>
+
+<script>
+    $(document).ready(function(){
+        $("#mainmenu ul li a").unbind('click');
+        $("#mainmenu ul li").unbind('click');
+    })
+</script>

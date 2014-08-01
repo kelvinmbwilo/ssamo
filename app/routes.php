@@ -16,6 +16,11 @@ Route::get('/', function()
 	return View::make('home');
 });
 
+Route::get('about', function()
+{
+	return View::make('about');
+});
+
 Route::get('admin', function()
 {
 	return View::make('admin.master');
