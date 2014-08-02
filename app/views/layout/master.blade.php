@@ -46,7 +46,8 @@ photography,  graphic design">
             <li><a href="{{ url('ssamo') }}">HOME</a></li>
             <li><a href="{{ url('ssamo/about') }}">ABOUT</a></li>
             <li><a href="{{ url('ssamo/services') }}">SERVICES</a></li>
-            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="{{ url('ssamo/portfolio') }}">PORTFOLIO</a></li>
+            <li><a href="ssamomedia.tumblr.com" target="_blank">BLOG</a></li>
             <li><a href="{{ url('ssamo/contacts') }}">CONTACTS</a></li>
         </ul>
     </div>

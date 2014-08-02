@@ -35,6 +35,11 @@ Route::get('ssamo/contacts', function()
 	return View::make('ssamo.contact');
 });
 
+Route::get('ssamo/portfolio', function()
+{
+	return View::make('ssamo.portfolio');
+});
+
 Route::get('about', function()
 {
 	return View::make('about');
@@ -104,3 +109,33 @@ Route::post('admin/picture/edit/{id}',array('uses'=>'PictureController@update'))
 
 //deleting facility
 Route::post('admin/picture/delete/{id}',array('uses'=>'PictureController@destroy'));
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/**
+ * Managing Portfolio actions
+ * Directing routes to correct controllers
+ * using PictureController
+ */
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//display a form to add new vaccine
+Route::get('admin/portfolio/add',array('uses'=>'PortfolioController@create'));
+
+//display a list of vaccines
+Route::get('admin/portfolio/list',array('uses'=>'PortfolioController@lists'));
+
+//adding new facility
+Route::post('admin/portfolio/add',array('uses'=>'PortfolioController@store'));
+
+//viewing index page
+Route::get('admin/portfolio',array('uses'=>'PortfolioController@index'));
+
+//display a form to edit facility information
+Route::get('admin/portfolio/edit/{id}',array('uses'=>'PortfolioController@edit'));
+
+//editng facility information
+Route::post('admin/portfolio/edit/{id}',array('uses'=>'PortfolioController@update'));
+
+//deleting facility
+Route::post('admin/portfolio/delete/{id}',array('uses'=>'PortfolioController@destroy'));

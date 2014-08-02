@@ -5,7 +5,7 @@
 
             <div class='form-group'>
                 <div class='col-sm-11'>
-                    Tittle<br> {{ Form::text('title','',array('class'=>'form-control','placeholder'=>'Category Name','required'=>'required')) }}
+                    Title<br> {{ Form::text('title','',array('class'=>'form-control','placeholder'=>'Category Name','required'=>'required')) }}
                 </div>
                 <div class='col-sm-11'>
                     Description<br> {{ Form::textarea('description','',array('class'=>'form-control','placeholder'=>'Description(optional)','value'=>'0')) }}

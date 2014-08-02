@@ -42,6 +42,7 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="{{ url('admin/category') }}">Photo Categories</a></li>
                 <li><a href="{{ url('admin/picture') }}">Photos Management</a></li>
+                <li><a href="{{ url('admin/portfolio') }}">Portfolio</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">

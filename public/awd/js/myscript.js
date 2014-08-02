@@ -283,7 +283,7 @@ function closeContR(){
 	var h = $( window ).height(); // returns height of browser viewport
 	var w = $( window ).width(); // returns height of browser viewport
 
-	var hproject = h/3 ;
+	var hproject = h/2 ;
 	var wcontstart = w - 320 ;  
 	var wcontlate = w - 60 ;  
 	var postContWidth = $("#post-cont").width(); 
@@ -305,7 +305,7 @@ $(document).ready(function() {
 var h = $( window ).height(); // returns height of browser viewport
 var w = $( window ).width(); // returns width of browser viewport
 
-var hproject = h/3 ;
+var hproject = h/2 ;
 var wcontstart = w - 320 ;  
 var wcontlate = w - 60 ;  
 var MarginPost = h - (h/3);

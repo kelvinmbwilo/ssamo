@@ -12,8 +12,8 @@
                 Dar es saalam<br/>
                 Tanzania<br/>
                 P.O Box ...<br/><br/>
-                <img src="{{ asset('awd/images/tel_awdagency.png') }}" /> +255 xxx xxx xxx<br/>
-                <img src="{{ asset('awd/images/fax_awdagency.png') }}" /> +255 xxx xxx xxx<br/>
+                <img src="{{ asset('awd/images/tel_awdagency.png') }}" /> +255 753 869 564<br/>
+                <img src="{{ asset('awd/images/fax_awdagency.png') }}" /> +255 753 869 564<br/>
                 <img src="{{ asset('awd/images/mail_awdagency.png') }}" /> <a href="mailto:hello@ssamomedia.com">hello@ssamomedia.com</a><br/><br/>
 
                 <a id="text-map" target="_blank" href="https://www.google.it/maps/place/Awd+Agency/@43.239176,13.746361,17z/data=!3m1!4b1!4m2!3m1!1s0x13321293dc1eb575:0x6c1ce736cd176c02"><img style="margin-bottom:-7px;" src="{{ asset('awd/images/maps_awdagency.png') }}" /> MAPS</a><br/>
