@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'abchanel_couturesemibold';
+    src: url('font/abchanelcouture-semibold-webfont-webfont.eot');
+    src: url('font/abchanelcouture-semibold-webfont-webfont.eot%3F') format('embedded-opentype'),
+         url('font/abchanelcouture-semibold-webfont-webfont.woff') format('woff'),
+         url('font/abchanelcouture-semibold-webfont-webfont.ttf') format('truetype'),
+         url('font/abchanelcouture-semibold-webfont-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LinotypeDidotItalic';
+    src: url('font/01322_didotlhi-webfont-webfont.eot');
+    src: url('font/01322_didotlhi-webfont-webfont.eot%3F') format('embedded-opentype'),
+         url('font/01322_didotlhi-webfont-webfont.woff') format('woff'),
+         url('font/01322_didotlhi-webfont-webfont.ttf') format('truetype'),
+         url('font/01322_didotlhi-webfont-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'proxima_novabold';
+    src: url('font/proximanova-bold-webfont-webfont.eot');
+    src: url('font/proximanova-bold-webfont-webfont.eot%3F') format('embedded-opentype'),
+         url('font/proximanova-bold-webfont-webfont.woff') format('woff'),
+         url('font/proximanova-bold-webfont-webfont.ttf') format('truetype'),
+         url('font/proximanova-bold-webfont-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_novaregular';
+    src: url('font/proximanova-regular-webfont-webfont.eot');
+    src: url('font/proximanova-regular-webfont-webfont.eot%3F') format('embedded-opentype'),
+         url('font/proximanova-regular-webfont-webfont.woff') format('woff'),
+         url('font/proximanova-regular-webfont-webfont.ttf') format('truetype'),
+         url('font/proximanova-regular-webfont-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url('font/proximanova-light-webfont.eot');
+    src: url('font/proximanova-light-webfont.eot%3F') format('embedded-opentype'),
+         url('font/proximanova-light-webfont.woff') format('woff'),
+         url('font/proximanova-light-webfont.ttf') format('truetype'),
+         url('font/proximanova-light-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body
+{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* hide horizontal scrollbars, since we use the vertical ones to scroll to the right */
+body
+{
+  overflow-x: hidden;
+}
+
+h1
+{
+  font-size: 20px;
+  font-weight: normal;
+  color: #2e6e80;
+}
+
+/**
+  * important: keep position fixed, you can however use top:0 instead of bottom:0
+  * if you want to make it stick to the top of the browser
+  */
+.scroll
+{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+/**
+  * z-index ordering of the different layers, do this for your layers,
+  * also assign absolute width (to prevent issues if the script gets executed before the images get loaded)
+  */
+.horizon
+{
+	height:100%;
+  z-index: 1;
+  width: 6400px;
+}
+
+
+
+		#container{position:relative; left:0px; top:0px; height:100%;}
+		.slider{position:absolute; top:0px; width:100%; height:100%; overflow:auto;  -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+		.slider.toggle_width{width:20%; height:100%;}
+		.my_container{overflow:hidden; height:100%; z-index:10;}
+		.line-element{float:left; z-index:10;height:100%;width: 320px;display:block;position:relative;background:#fff;margin-left:0px; text-align:center;}
+		.line-element img{margin-top:40px;}
+		.line-element ul{position:absolute; top:30%; text-align:center; width:100%; padding:0px;}
+		.line-element ul li{font-family: 'proxima_novaregular'; font-size: 12px; color: #868789; list-style:none; height:18px;}
+		.line-element ul li a{color: #868789; text-decoration:none;}
+		.title-awards{font-family: 'proxima_novabold' !important; font-size: 13px !important; color: #313133 !important; margin-top:35px !important; margin-bottom:8px; height:auto !important;}
+
+
+		.slider .my_container span{position:absolute; bottom:0;left:0; }
+		.slider .my_container img:first-child{margin-left:0;}
+		.slider .my_container img:last-child{margin-right:0;}
+		
+		#communicationawards{background-color:#fff;}
+		#awwwards{background-color:#e4e6e5;}
+		#fwa{background-color:#191c1b;}
+		#fwa .title-awards{color:#fff !important;}
+		#pwi2012{background-color:#ffffff;}
+		#pwi2011{background-color:#cb032d;}
+		#pwi2011 li a{color:#fff;}
+		#cssdesignawards{background-color:#ebebeb;}
+		#cssdesignawards .title-awards{color:#fff;}
+		#cssawards{background-color:#c2172e;}
+		#cssawards li a{color:#fff;}
+		#designlinks{background-color:#ffffff;}
+		#cssdsgn{background-color:#000000;}	
+		#cssdsgn .title-awards{color:#fff !important;}
+		#csswinner{background-color:#2D2D2D;}
+		#csswinner .title-awards{color:#fff !important;}
+		#cssmania{background-color:#80a449;}
+		#cssmania li a{color:#fff;}
+		#htmlinspiration{background-color:#f5f5f5;}	
+		#cssleggend{background-color:#2f3d4f;}	
+		#cssleggend .title-awards{color:#fff !important;}
+		#csslight{background-color:#ffffff;}	
+		#csslounge {background-color:#e2ead5;}	
+		#cssreel{background-color:#3d414e;}	
+		#cssreel .title-awards{color:#fff !important;}
+		#french{background-color:#000000;}	
+		#french .title-awards{color:#fff !important;}
+		#onepagelove{background-color:#e8e8e8;}	
+		#italiansdoitbetter{background-color:#ffffff;}	
+		#iwg{background-color:#6d6e71;}	
+		#iwg li a{color:#fff !important;}
+		#bestwebdesignaward{background-color:#e4e6e5;}	
+	
+	

@@ -15,6 +15,25 @@ Route::get('/', function()
 {
 	return View::make('home');
 });
+Route::get('ssamo', function()
+{
+	return View::make('ssamo.home');
+});
+
+Route::get('ssamo/about', function()
+{
+	return View::make('ssamo.about');
+});
+
+Route::get('ssamo/services', function()
+{
+	return View::make('ssamo.service');
+});
+
+Route::get('ssamo/contacts', function()
+{
+	return View::make('ssamo.contact');
+});
 
 Route::get('about', function()
 {
