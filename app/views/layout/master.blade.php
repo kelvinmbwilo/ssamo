@@ -47,7 +47,7 @@ photography,  graphic design">
             <li><a href="{{ url('ssamo/about') }}">ABOUT</a></li>
             <li><a href="{{ url('ssamo/services') }}">SERVICES</a></li>
             <li><a href="{{ url('ssamo/portfolio') }}">PORTFOLIO</a></li>
-            <li><a href="ssamomedia.tumblr.com" target="_blank">BLOG</a></li>
+            <li><a href="http://ssamomedia.tumblr.com" target="_blank">BLOG</a></li>
             <li><a href="{{ url('ssamo/contacts') }}">CONTACTS</a></li>
         </ul>
     </div>
@@ -55,22 +55,22 @@ photography,  graphic design">
         <!--<h2>STAY CONNECTED</h2>
         <h3>FOLLOW US ON SOCIAL NETWORK</h3>-->
         <div id="social-menu">
-            <a class="" href="grid-gallery.html#">
+            <a class="" href="http://www.instagram.com/ssamomedia">
                 <img src="{{ asset('ssamo_instagram.png') }}" style="height: 25px;width: 25px"/>
             </a>
-            <a class="" href="grid-gallery.html#">
+            <a class="" href="">
                 <img src="{{ asset('ssamo_facebook.png') }}" style="height: 25px;width: 25px"/>
             </a>
-            <a class="" href="grid-gallery.html#">
+            <a class="" href="http://www.twitter.com/ssamomedia">
                 <img src="{{ asset('ssamo_twitter.png') }}" style="height: 25px;width: 25px"/>
             </a>
-            <a class="" href="grid-gallery.html#">
+            <a class="" href="https://www.linkedin.com/in/jnaphtal">
                 <img src="{{ asset('ssamo_linkedin.png') }}" style="height: 25px;width: 25px"/>
             </a>
-            <a class="e" href="grid-gallery.html#">
+            <a class="e" href="https://plus.google.com/113565488570534539879/about">
                 <img src="{{ asset('ssamo_google.png') }}" style="height: 25px;width: 25px"/>
             </a>
-            <a class="e" href="grid-gallery.html#">
+            <a class="e" href="http://ssamomedia.tumblr.com/">
                 <img src="{{ asset('ssamo_tumblr.png') }}" style="height: 25px;width: 25px"/>
             </a>
 
